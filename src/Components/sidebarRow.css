@@ -1,0 +1,25 @@
+.row__container{
+    display: flex;
+    align-items: center;
+    padding: 10px 35px;
+}
+
+.icon__sidebar{
+    color: #606060;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+.title{
+    flex: 1;
+    font-size: 14px;
+    font-weight: 700;
+    color: #363636;
+}
+.row__container:hover{
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+.row__container:hover > .icon__sidebar{
+    color: red;
+}

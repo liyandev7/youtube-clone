@@ -1,36 +1,22 @@
-import React from 'react'
+import React from "react";
 import "./App.css";
-import Header from './Components/Header';
+import Header from "./Components/Header";
+import Sidebar from "./Components/Sidebar";
+import Videos from "./Components/Videos";
 function App() {
   return (
     <div>
-     {/* Header */}
-     <Header/>
-     {/* Sidebar */}
-     {/* Content */}
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
-     <h1>Test</h1>
+      {/* Header */}
+      <Header />
+
+      <div class="app__container">
+        <Sidebar/>
+        <Videos/>
+      </div>
+      {/* Sidebar */}
+      {/* Content */}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
