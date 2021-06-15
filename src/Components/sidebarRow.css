@@ -23,3 +23,9 @@
 .row__container:hover > .icon__sidebar{
     color: red;
 }
+.active > .icon__sidebar{
+    color: red;
+}
+.active{
+    background-color: rgb(243, 243, 243);
+}

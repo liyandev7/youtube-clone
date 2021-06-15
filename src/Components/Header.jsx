@@ -27,7 +27,8 @@ function Header() {
                 <div className="option">   <VideoCallSharpIcon/></div>
                 <div className="option">    <ViewModuleSharpIcon/></div>
                 <div className="option"> <NotificationsSharpIcon/></div>
-                <div className="option">                <Avatar alt="AliRazavi" src="https://yt3.ggpht.com/yti/ANoDKi60IrrO0cH9yKnGCt2aRYOMDIPlFT5QdeYEOBdz=s88-c-k-c0x00ffffff-no-rj-mo" /></div>
+                <div className="option">                <Avatar alt="AliRazavi" src="https://yt3.ggpht.com/yti/ANoDKi60IrrO0cH9yKnGCt2aRYOMDIPlFT5QdeYEOBdz=s88-c-k-c0x00ffffff-no-rj-mo" />
+</div>
             </div>
         </div>
     )

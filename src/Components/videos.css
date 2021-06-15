@@ -1,3 +1,9 @@
 .videos__container{
     flex: 0.8;
 }
+.videos__container > hr{
+    border: 0;
+    margin: 10px 0;
+    background-color: lightgray;
+    height: 1px;
+}
